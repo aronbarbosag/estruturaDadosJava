@@ -10,7 +10,7 @@ class Pilha {
     public Pilha(int capacidade) {
         this.capacidade = capacidade;
         this.elementos = new int[capacidade];
-        this.topo = -1; // Indica pilha vazia
+        this.topo = -1; // vazio aqui nessa bagaça
     }
 
     public boolean isEmpty() {
@@ -92,9 +92,9 @@ public class TestePilha {
                     break;
                 case 4:
                     if (pilha.isEmpty()) {
-                        System.out.println("A pilha está vazia.");
+                        System.out.println("VAZIO.");
                     } else {
-                        System.out.println("A pilha não está vazia.");
+                        System.out.println(" NÃO está VAZIO.");
                     }
                     break;
                 case 5:
